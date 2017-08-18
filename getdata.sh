@@ -1,5 +1,5 @@
 #!/bin/sh
-
+clear
 #工作路径
 work_path=/home/yue
 
