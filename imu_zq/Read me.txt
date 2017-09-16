@@ -1,0 +1,17 @@
+imu.c 文件里的MahonyAHRSupdateIMU函数包括了：
+
+FastCali（）：快速标定子程序；
+
+FastAlign（）：快速对准子程序；
+
+UpdateQCbn()：姿态矩阵/四元数更新子程序；
+
+Navigation()：惯导速度位置更新子程序；
+
+IMUGPS_Kalman()：组合导航子程序。
+
+
+各子程序的实现都在NavFun.c文件中。
+
+
+
